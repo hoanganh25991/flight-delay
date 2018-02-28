@@ -37,18 +37,19 @@ module.exports = {
             network_id: 3, // custom private network
             host: '0.0.0.0',
             port: 8545,
-            from: '0x19707FA3BBBaaB91a35c838B69a041eb823AC465', // 0 - deployer
+            from: '0xc73bA89c340a5839473b2486fbf3af479Aa8e620', // 0 - deployer
             unlock: [
-                '0x5186aF3a9728DA85B60d4d2Bf325cF6c6FdF3410', // 1 - new owner & FD.Owner
-                '0x5A8e2e9e253E9ea8D329e9f9230799Fd4a4Fe687', // 2 - FD.Funder
-                '0x6fcc2bA0c8D4C785a033D8388EdcBfEe3222a38B', // 3 - FD.CustomersAdmin
-                '0x7EA6CaE3B0badD43A2Ce56eE59E0f596F82AbE31', // 4 - FD.Emeregency
-                '0xABA9Af9d055211530F8b7A9950Feb70FF9E9B7c2', // 5 - Customer
-                '0xbB4dB85946b3C45ccC658E7C6Adb4ae6B8B981d7', // 6 - Test 1
-                '0xCa8833b60A78A28e6d28403Dd3B20C20770f6A3C', // 7 - Test 2
-                '0xdbf0d8b90F1AbFfDe270bAAd45Bd0e56bC768d87', // 8 - Test 3
+                '0xc73bA89c340a5839473b2486fbf3af479Aa8e620',
+                '0xfb3eb19cf16d4aF3B9e190e80A2f0C48ab4f1188', // 1 - new owner & FD.Owner
+                '0x3DeEe88A871433a5709c93eF63Eb04F4eACE0ac5', // 2 - FD.Funder
+                '0x448f8EC95B31A64436222c013C668E7634984C79', // 3 - FD.CustomersAdmin
+                '0x33eC7255FD0acF37e48868FB75e3DBdd12Fcbdf4', // 4 - FD.Emeregency
+                '0x37fBb918808d2c505Bc7274e9Df771D537A3989f', // 5 - Customer
+                '0x165A5b95298B2F03bb2a2276Ea91e066D25f8573', // 6 - Test 1
+                '0xC809d1AA78D55Fe99782A8Fa278425DAB8871c58', // 7 - Test 2
+                '0x26b83c6c87c25721218289587abC0c032ba7A12e', // 8 - Test 3
             ], // to unlock in parity
-            addressResolver: '0xa18a7468d6fc9df9664a82b37f4944061e0f5958',
+            addressResolver: '0x79080604029FAF6f407665554C0Dc65eEA8F662f',
             gas: 4700000,
         },
         development: {
